@@ -18,7 +18,7 @@ export default class SeasonDisplay extends Component {
     }
     return lat > 0 ? 'winter' : 'summer'
   }
-
+  
   render() {
     const season = this.getSeason(this.props.lat, new Date().getMonth())
     const { text, iconName } = seasonConfig[season]

@@ -15,7 +15,7 @@ export default class App extends Component {
     )
   }
 
-  render() {
+  renderContent () {
     if (this.state.lat && !this.state.errorMessage) {
       return (
         <div>
@@ -29,5 +29,13 @@ export default class App extends Component {
     }
 
     return <Spinner message="Please Accept enable location" />
+  }
+
+  render() {
+    return (
+      <div className="border">
+        {this.renderContent()}
+      </div>
+    )
   }
 }
