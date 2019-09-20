@@ -1,3 +1,7 @@
+# Weather Project
+
+This project is a course project from Udemy. The main topic is **Understanding Lifecylce Methods**.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
