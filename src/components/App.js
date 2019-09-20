@@ -28,6 +28,6 @@ export default class App extends Component {
       return <div>Error: {this.state.errorMessage}</div>
     }
 
-    return <Spinner />
+    return <Spinner message="Please Accept enable location" />
   }
 }
